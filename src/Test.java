@@ -13,7 +13,9 @@ public class Test {
 		System.out.println(taro.address);
 		taro.talk();
 		taro.walk();
+		taro.run();
 		System.out.println();
+		
 		
 		Person jiro = new Person();
 		jiro.name = "木村次郎";
@@ -27,7 +29,9 @@ public class Test {
 		System.out.println(jiro.address);
 		jiro.talk();
 		jiro.walk();
+		jiro.run();
 		System.out.println();
+		
 		
 		Person hanako = new Person();
 		hanako.name = "鈴木花子";
@@ -41,7 +45,9 @@ public class Test {
 		System.out.println(hanako.address);
 		hanako.talk();
 		hanako.walk();
+		hanako.run();
 		System.out.println();
+		
 		
 		Person wakasa = new Person();
 		wakasa.name = "若狭美帆";
@@ -55,6 +61,34 @@ public class Test {
 		System.out.println(wakasa.address);
 		wakasa.talk();
 		wakasa.walk();
+		wakasa.run();
+		System.out.println();
+		
+		
+		Robot aibo = new Robot();
+		aibo.name = "アイボ";
+		
+		aibo.talk();
+		aibo.walk();
+		aibo.run();
+		System.out.println();
+		
+		
+		Robot asimo = new Robot();
+		asimo.name = "アシモ";
+		
+		asimo.talk();
+		asimo.walk();
+		asimo.run();
+		System.out.println();
+		
+		
+		Robot pepper = new Robot();
+		pepper.name = "ペッパー";
+		
+		pepper.talk();
+		pepper.walk();
+		pepper.run();
 		System.out.println();
 	}
 
